@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>株価チャート</title>
+    </head>
+    <body>
+        <h1></h1>
+        <h2>{{ ticker1 }}</h2>
+        <p><strong>{{ ticker1 }}</strong>: Capital Gain = {{ capital_gain1 }} USD</p>
+        <p><strong>{{ ticker1 }}</strong>: Total Dividend = {{ total_dividend1 }} USD</p>
+        <p><strong>Total (Capital Gain + Dividends): {{ total1 }} USD</strong></p>
+        <hr>
+        <h2>{{ ticker2 }}</h2>
+        <p><strong>{{ ticker2 }}</strong>: Capital Gain = {{ capital_gain2 }} USD</p>
+        <p><strong>{{ ticker2 }}</strong>: Total Dividend = {{ total_dividend2 }} USD</p>
+        <p><strong>Total (Capital Gain + Dividends): {{ total2 }} USD</strong></p>
+        <hr>
+        <img src="data:image/png;base64,{{ chart_url }}" alt="Stock Comparison Chart">
+    </body>
+</html>

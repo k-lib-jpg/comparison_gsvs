@@ -4,7 +4,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 import io
 import base64
-from comparison_gsvs import app
+from main import app
 from datetime import datetime
 
 #「/」へアクセスがあった場合に、関数の内容を実行
@@ -80,7 +80,3 @@ def chart():
                             total1=total1, total2=total2,
                             chart_url=chart_url)
 
-
-#デバッグモードで実行
-if __name__ == '__main__':
-    app.main(debug=True)

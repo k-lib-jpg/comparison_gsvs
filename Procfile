@@ -1,1 +1,1 @@
-web: gunicorn comparison_gsvs:app
+web: gunicorn run:app --log-file -

@@ -1,13 +1,11 @@
 #render_template（HTMLを表示させるための関数）をインポート
-from flask import Flask, request, render_template
+from flask import request, render_template
 import yfinance as yf
 import matplotlib.pyplot as plt
 import io
 import base64
 from comparison_gsvs import app
 from datetime import datetime
-
-app = Flask(__name__)
 
 #「/」へアクセスがあった場合に、関数の内容を実行
 @app.route('/')

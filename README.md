@@ -1,7 +1,7 @@
 # comparison_gsvsについて
 
 ## どんなアプリケーションか
-* バリュー株とグロース株の利益比較ツール
+* バリュー株とグロース株の利益比較ツール（停止中）
 * URL:https://comparisongsvs-d959a0d19882.herokuapp.com/
 
 ## 目的
